@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lahiri Sidereal Ephemeris (1900–2050) &amp; 22 Arcana Destiny Matrix Reference</title>
+  <meta name="description" content="Open reference tables for Chitrapaksha (Lahiri) sidereal ayanamsha (1900–2050), 27 Nakshatra boundaries, and Base-22 Destiny Matrix (22 Major Arcana) equations.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://vedaastro.github.io/lahiri-sidereal-ephemeris/">
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card: #181b22;
+      --border: #2a2f3a;
+      --text: #f3f4f6;
+      --muted: #9ca3af;
+      --accent: #f59e0b;
+      --link: #60a5fa;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2.5rem 1.25rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 0.75rem;
+      line-height: 1.25;
+    }
+    h2 {
+      font-size: 1.35rem;
+      margin-top: 2.25rem;
+      color: var(--accent);
+    }
+    p, li { color: #d1d5db; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .nav-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.2rem;
+    }
+    .card strong {
+      display: block;
+      margin-bottom: 0.35rem;
+      color: var(--text);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 1rem 0 2rem;
+      font-size: 0.94rem;
+    }
+    th, td {
+      padding: 0.65rem 0.85rem;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    th {
+      background: #20242d;
+      color: var(--text);
+      font-weight: 600;
+    }
+    code, pre {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      background: #14171d;
+      border-radius: 6px;
+    }
+    pre {
+      padding: 1rem;
+      border: 1px solid var(--border);
+      overflow-x: auto;
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Lahiri Sidereal Ephemeris (1900–2050) &amp; Base-22 Destiny Matrix Reference</h1>
+      <p>Open astronomical and mathematical reference for Chitrapaksha (Lahiri) precession tables, 27 lunar Nakshatra spans, and 22 Major Arcana Destiny Matrix coordinate equations.</p>
+      <div class="nav-cards">
+        <div class="card">
+          <strong>Western &amp; Vedic Sidereal Calculator (EN)</strong>
+          <a href="https://astrologycalc.com/">https://astrologycalc.com/</a>
+        </div>
+        <div class="card">
+          <strong>Tema Natale &amp; Matrice del Destino (IT)</strong>
+          <a href="https://astrologycalc.com/it/">https://astrologycalc.com/it/</a>
+        </div>
+        <div class="card">
+          <strong>Destiny Matrix Calculator (22 Arcana)</strong>
+          <a href="https://astrologycalc.com/destiny-matrix-calculator/">https://astrologycalc.com/destiny-matrix-calculator/</a>
+        </div>
+        <div class="card">
+          <strong>Натальная карта Джйотиш онлайн (RU D1/D9)</strong>
+          <a href="https://astroguru.ru/chart-public">https://astroguru.ru/chart-public</a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h2>1. Chitrapaksha (Lahiri) Ayanamsha Reference Table (1900–2050)</h2>
+      <p>To convert apparent tropical ecliptic longitudes (&lambda;<sub>tropical</sub>) to Vedic sidereal longitudes (&lambda;<sub>sidereal</sub>) used in <a href="https://astrologycalc.com/">AstrologyCalc</a> and <a href="https://astroguru.ru/chart-public">AstroGuru Natal Chart</a>, subtract the Chitrapaksha Ayanamsha for the target epoch:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Epoch (Jan 1, 00:00 TT)</th>
+            <th>Julian Day (JDE)</th>
+            <th>Lahiri Ayanamsha (DMS)</th>
+            <th>Decimal Degrees</th>
+            <th>Annual Precession</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1900.0</td><td>2415020.5</td><td>22&deg; 27' 37.7"</td><td>22.46047&deg;</td><td>50.2564"/yr</td></tr>
+          <tr><td>1910.0</td><td>2418672.5</td><td>22&deg; 35' 59.9"</td><td>22.59997&deg;</td><td>50.2586"/yr</td></tr>
+          <tr><td>1920.0</td><td>2422325.5</td><td>22&deg; 44' 22.5"</td><td>22.73958&deg;</td><td>50.2608"/yr</td></tr>
+          <tr><td>1930.0</td><td>2425977.5</td><td>22&deg; 52' 45.2"</td><td>22.87922&deg;</td><td>50.2630"/yr</td></tr>
+          <tr><td>1940.0</td><td>2429630.5</td><td>23&deg; 01' 08.0"</td><td>23.01889&deg;</td><td>50.2653"/yr</td></tr>
+          <tr><td>1950.0</td><td>2433282.5</td><td>23&deg; 09' 31.0"</td><td>23.15861&deg;</td><td>50.2675"/yr</td></tr>
+          <tr><td>1960.0</td><td>2436934.5</td><td>23&deg; 17' 54.2"</td><td>23.29839&deg;</td><td>50.2697"/yr</td></tr>
+          <tr><td>1970.0</td><td>2440587.5</td><td>23&deg; 26' 17.6"</td><td>23.43822&deg;</td><td>50.2719"/yr</td></tr>
+          <tr><td>1980.0</td><td>2444239.5</td><td>23&deg; 34' 41.2"</td><td>23.57811&deg;</td><td>50.2741"/yr</td></tr>
+          <tr><td>1990.0</td><td>2447892.5</td><td>23&deg; 43' 05.0"</td><td>23.71806&deg;</td><td>50.2764"/yr</td></tr>
+          <tr><td>2000.0 (J2000)</td><td>2451545.0</td><td>23&deg; 51' 25.5"</td><td>23.85709&deg;</td><td>50.2910"/yr</td></tr>
+          <tr><td>2010.0</td><td>2455197.5</td><td>23&deg; 59' 48.4"</td><td>23.99678&deg;</td><td>50.2932"/yr</td></tr>
+          <tr><td>2020.0</td><td>2458849.5</td><td>24&deg; 08' 11.4"</td><td>24.13650&deg;</td><td>50.2954"/yr</td></tr>
+          <tr><td>2026.0</td><td>2461041.5</td><td>24&deg; 13' 13.2"</td><td>24.22033&deg;</td><td>50.2968"/yr</td></tr>
+          <tr><td>2030.0</td><td>2462502.5</td><td>24&deg; 16' 34.4"</td><td>24.27622&deg;</td><td>50.2977"/yr</td></tr>
+          <tr><td>2040.0</td><td>2466154.5</td><td>24&deg; 24' 57.5"</td><td>24.41597&deg;</td><td>50.2999"/yr</td></tr>
+          <tr><td>2050.0</td><td>2469807.5</td><td>24&deg; 33' 20.8"</td><td>24.55578&deg;</td><td>50.3021"/yr</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>2. Base-22 Destiny Matrix (22 Major Arcana) Calculation Formulas</h2>
+      <p>The octagonal Destiny Matrix algorithm implemented on <a href="https://astrologycalc.com/destiny-matrix-calculator/">AstrologyCalc Destiny Matrix Calculator</a> and the Italian <a href="https://astrologycalc.com/it/">Calcolatore Tema Natale e Matrice del Destino</a> maps any Gregorian birth date <code>(DD, MM, YYYY)</code> into 22 Major Arcana energies using recursive digit reduction:</p>
+      <pre><code>function reduceArcana22(n) {
+  let x = Math.abs(Number(n));
+  while (x &gt; 22) {
+    x = String(x).split('').reduce((sum, digit) =&gt; sum + Number(digit), 0);
+  }
+  return x === 0 ? 22 : x;
+}
+
+// Primary Personal Square (Vertices A, B, C, D)
+const A = reduceArcana22(DD);                         // Day of Birth (0° West)
+const B = reduceArcana22(MM);                         // Month of Birth (90° North)
+const C = reduceArcana22(sumDigits(YYYY));            // Year of Birth (180° East)
+const D = reduceArcana22(A + B + C);                  // Past-Life Foundation (270° South)
+
+// Central Comfort Zone (Crystal of the Soul)
+const E = reduceArcana22(A + B + C + D);
+
+// Karmic Tail Triad (Bottom 3 Numbers)
+const K1 = reduceArcana22(D + E);
+const K2 = reduceArcana22(D + K1);
+const karmicTail = `${K1}-${K2}-${D}`;</code></pre>
+    </section>
+
+    <footer>
+      <p>Source repository: <a href="https://github.com/VedaAstro/lahiri-sidereal-ephemeris">github.com/VedaAstro/lahiri-sidereal-ephemeris</a> &middot; Live tools: <a href="https://astrologycalc.com/">AstrologyCalc EN</a> &middot; <a href="https://astrologycalc.com/it/">AstrologyCalc IT</a> &middot; <a href="https://astrologycalc.com/destiny-matrix-calculator/">Destiny Matrix 22 Arcana</a> &middot; <a href="https://astroguru.ru/chart-public">AstroGuru RU</a></p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "lahiri-sidereal-ephemeris",
+  "version": "1.2.0",
+  "description": "Open-source Chitrapaksha (Lahiri) sidereal ayanamsha reference tables (1900–2050), 27 Nakshatra boundaries, and Base-22 Destiny Matrix (22 Arcana) reduction formulas.",
+  "main": "index.js",
+  "homepage": "https://astrologycalc.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VedaAstro/lahiri-sidereal-ephemeris.git"
+  },
+  "keywords": [
+    "astrology",
+    "vedic-astrology",
+    "jyotish",
+    "lahiri-ayanamsha",
+    "sidereal-ephemeris",
+    "nakshatra",
+    "destiny-matrix",
+    "22-arcana",
+    "swiss-ephemeris"
+  ],
+  "author": "AstrologyCalc & AstroGuru Open Reference",
+  "license": "MIT"
+}
