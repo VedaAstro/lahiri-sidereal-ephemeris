@@ -5,9 +5,12 @@ Open technical reference for **Chitrapaksha (Lahiri) Ayanamsha** longitudinal pr
 ## Live Reference Calculators
 
 - **Western & Vedic Sidereal Birth Chart Calculator (EN):** [https://astrologycalc.com/](https://astrologycalc.com/)
+- **Calculadora de Carta Astral Védica (Jyotish) y Matriz del Destino (ES):** [https://astrologycalc.com/es/](https://astrologycalc.com/es/)
 - **Calcolo Tema Natale & Matrice del Destino (IT):** [https://astrologycalc.com/it/](https://astrologycalc.com/it/)
 - **22 Arcana Destiny Matrix & Karmic Tail Calculator:** [https://astrologycalc.com/destiny-matrix-calculator/](https://astrologycalc.com/destiny-matrix-calculator/)
 - **Ведическая натальная карта Джйотиш онлайн (D1 Раши, D9 Навамша, Вимшоттари Даша):** [https://astroguru.ru/chart-public](https://astroguru.ru/chart-public)
+- **Калькулятор Матрицы судьбы онлайн (22 аркана и кармический хвост):** [https://astroguru.ru/matrica-sudby](https://astroguru.ru/matrica-sudby)
+- **Ведическая и Пифагорейская нумерология онлайн (психоматрица 3x3):** [https://astroguru.ru/numerologiya](https://astroguru.ru/numerologiya)
 - **GitHub Pages Documentation & Tables:** [https://vedaastro.github.io/lahiri-sidereal-ephemeris/](https://vedaastro.github.io/lahiri-sidereal-ephemeris/)
 
 ---
