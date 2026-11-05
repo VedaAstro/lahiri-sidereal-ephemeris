@@ -7,6 +7,8 @@ Open technical reference for **Chitrapaksha (Lahiri) Ayanamsha** longitudinal pr
 - **Western & Vedic Sidereal Birth Chart Calculator (EN):** [https://astrologycalc.com/](https://astrologycalc.com/)
 - **Calculadora de Carta Astral Védica (Jyotish) y Matriz del Destino (ES):** [https://astrologycalc.com/es/](https://astrologycalc.com/es/)
 - **Calcolo Tema Natale & Matrice del Destino (IT):** [https://astrologycalc.com/it/](https://astrologycalc.com/it/)
+- **Vedisches Geburtshoroskop Rechner (Jyotish) & Schicksalsmatrix Kostenlos (DE):** [https://astrologycalc.com/de/](https://astrologycalc.com/de/)
+- **Calcular Mapa Astral Védico (Jyotish) e Matriz do Destino Grátis (PT/BR):** [https://astrologycalc.com/pt/](https://astrologycalc.com/pt/)
 - **22 Arcana Destiny Matrix & Karmic Tail Calculator:** [https://astrologycalc.com/destiny-matrix-calculator/](https://astrologycalc.com/destiny-matrix-calculator/)
 - **Ведическая натальная карта Джйотиш онлайн (D1 Раши, D9 Навамша, Вимшоттари Даша):** [https://astroguru.ru/chart-public](https://astroguru.ru/chart-public)
 - **Калькулятор Матрицы судьбы онлайн (22 аркана и кармический хвост):** [https://astroguru.ru/matrica-sudby](https://astroguru.ru/matrica-sudby)
@@ -71,6 +73,13 @@ function R22(n) {
    - $K_2 = R_{22}(D + K_1)$ (Central Karmic Lesson)
    - $D$ (Root Past-Life Debt)
    - *Full interactive Karmic Tail breakdown:* [https://astrologycalc.com/destiny-matrix-calculator/](https://astrologycalc.com/destiny-matrix-calculator/)
+
+---
+
+## 3. Dokumentation auf Deutsch & Documentação em Português
+
+- **Dokumentation auf Deutsch (DACH — Deutschland, Österreich, Schweiz):** [Vedisches Geburtshoroskop Rechner (Jyotish) & Schicksalsmatrix Kostenlos](https://astrologycalc.com/de/) · [Schicksalsmatrix Rechner (22 Arkana)](https://astrologycalc.com/de/destiny-matrix-calculator/)
+- **Documentação em Português (Portugal & Brasil):** [Calcular Mapa Astral Védico (Jyotish) e Matriz do Destino Grátis](https://astrologycalc.com/pt/) · [Calculadora da Matriz do Destino (22 Arcanos)](https://astrologycalc.com/pt/destiny-matrix-calculator/)
 
 ---
 
